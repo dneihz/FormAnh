@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="baitap" Class="MyDbContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TRUNG\SQLEXPRESS;Initial Catalog=baitap;Integrated Security=True" SettingsObjectName="FormAnh.Properties.Settings" SettingsPropertyName="baitapConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Anh" Member="Anhs">
+    <Type Name="Anh">
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAANH" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
